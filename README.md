@@ -1,1 +1,12 @@
 # My-LeetCode-Journey
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0135-candy](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0135-candy) |
+## Greedy
+|  |
+| ------- |
+| [0135-candy](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0135-candy) |
+<!---LeetCode Topics End-->
