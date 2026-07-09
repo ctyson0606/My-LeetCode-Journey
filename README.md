@@ -4,9 +4,11 @@
 ## Array
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0135-candy) |
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0135-candy) |
 <!---LeetCode Topics End-->
