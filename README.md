@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0055-jump-game](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -63,6 +64,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0189-rotate-array](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0189-rotate-array) |
 ## Divide and Conquer
