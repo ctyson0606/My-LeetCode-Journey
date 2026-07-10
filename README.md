@@ -9,6 +9,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0135-candy) |
+| [0169-majority-element](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0274-h-index) |
@@ -27,6 +28,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0380-insert-delete-getrandom-o1) |
 ## Math
 |  |
@@ -44,10 +46,12 @@
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0274-h-index) |
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0274-h-index) |
 ## Dynamic Programming
 |  |
@@ -59,4 +63,8 @@
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0189-rotate-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
