@@ -26,12 +26,15 @@ public:
 
             temp = matrix[i][j];
             for(int h = 0;h < 4;h++){
+                /*
                 cout << i << "-" << j << endl;
                 cout << "-----------------------" << endl;
+                */
                 swap(temp,matrix[j][matrix.size()-i-1]);
                 int a = j;
                 j = matrix.size()-i-1;
                 i = a;
+                /*
                 for(int a = 0; a < matrix.size() ; a++){
                     for(int b = 0; b < matrix.size(); b++){
                         cout << matrix[a][b] << "--" ;
@@ -39,6 +42,7 @@ public:
                     cout << endl;
                     cout << "------------------------------------------------" << endl;
                 }
+                */
             }  
 
         }
