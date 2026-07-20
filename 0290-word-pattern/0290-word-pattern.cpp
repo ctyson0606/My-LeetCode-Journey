@@ -42,7 +42,6 @@ public:
                 front++;
             }
         }
-        cout << i << endl;
         if(i != pattern.size()){
             return false;
         }
