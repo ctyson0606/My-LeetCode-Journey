@@ -38,6 +38,7 @@
 | [0274-h-index](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0289-game-of-life) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0380-insert-delete-getrandom-o1) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Greedy
 |  |
 | ------- |
@@ -47,6 +48,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0135-candy) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -98,6 +100,7 @@
 | [0169-majority-element](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0274-h-index) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Counting Sort
 |  |
 | ------- |
