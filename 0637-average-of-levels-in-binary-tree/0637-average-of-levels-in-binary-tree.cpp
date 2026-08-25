@@ -19,11 +19,11 @@ public:
         
         GetOrder(root,0);
         for(int i = 0;i < maxDepth+1;i++){
-            double sum = 0;
-            for(int j = 0; j < record[i].size() ; j++){
-                sum += double(record[i][j]);
+            long long sum = 0;
+            for(int j = 0; j < record[i].size() ;j++){
+                sum += record[i][j];
             }
-            double average = sum / record[i].size();
+            double average = double(sum) / double(record[i].size());
             finalAnswer.push_back(average);
         }
 
