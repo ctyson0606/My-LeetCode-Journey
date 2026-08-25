@@ -269,6 +269,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0173-binary-search-tree-iterator) |
 | [0222-count-complete-tree-nodes](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -280,6 +281,7 @@
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -304,6 +306,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0173-binary-search-tree-iterator) |
 | [0222-count-complete-tree-nodes](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -316,4 +319,12 @@
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0222-count-complete-tree-nodes) |
+## Binary Lifting
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Lowest Common Ancestor
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 <!---LeetCode Topics End-->
