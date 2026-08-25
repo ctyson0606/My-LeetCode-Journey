@@ -20,7 +20,7 @@ public:
         GetOrder(root,0);
         for(int i = 0;i < maxDepth+1;i++){
             long long sum = 0;
-            for(int j = 0; j < record[i].size() ;j++){
+            for(int j = 0; j < record[i].size() ; j++){
                 sum += record[i][j];
             }
             double average = double(sum) / double(record[i].size());
