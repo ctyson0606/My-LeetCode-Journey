@@ -17,6 +17,7 @@ public:
     vector<double> averageOfLevels(TreeNode* root) {
         vector<double> finalAnswer;
         
+        
         GetOrder(root,0);
         for(int i = 0;i < maxDepth+1;i++){
             long long sum = 0;
