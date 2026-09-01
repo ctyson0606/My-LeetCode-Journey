@@ -97,6 +97,7 @@
 | [0012-integer-to-roman](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0048-rotate-image) |
+| [0067-add-binary](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0067-add-binary) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0202-happy-number) |
@@ -192,6 +193,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0125-valid-palindrome) |
@@ -213,6 +215,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0289-game-of-life) |
 ## Binary Search
@@ -371,6 +374,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0067-add-binary) |
 | [0222-count-complete-tree-nodes](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0222-count-complete-tree-nodes) |
 ## Binary Lifting
 |  |
