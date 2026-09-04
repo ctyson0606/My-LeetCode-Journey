@@ -1,19 +1,20 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        int size = nums.size();
-        std::unordered_map<int,int> amount;
-        for(int i = 0;i < size;i ++){
-            if(amount.contains(nums[i])){
-                amount[nums[i]] += 1;
+        int major;
+        int count = 0;
+        for(int i = 0;i < nums.size();i++){
+            if(count == 0){
+                major = nums[i];
+                count++;
             }
-            else{
-                amount[nums[i]] = 1;
+            else if(major != nums[i]){
+                count--;
             }
-            if(amount[nums[i]] > (size/2)){
-                return nums[i];
+            else if(major == nums[i]){
+                count++;
             }
         }
-        return -1;
+        return major;
     }
 };
