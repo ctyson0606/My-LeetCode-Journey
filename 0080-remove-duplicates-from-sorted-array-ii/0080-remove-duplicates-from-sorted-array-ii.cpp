@@ -2,7 +2,7 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         int n = nums.size();
-         if(n <= 2) return n;
+        if(n <= 2) return n;
 
         int idx = 2;
         int i = 2;
