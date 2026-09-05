@@ -1,27 +1,23 @@
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-        vector<int> temp;
-        vector<int> temp1;
-        int i = 0;
-        int j = 0;
-        if(nums.size() >= k){
-        temp.insert(temp.begin(),nums.end()-k,nums.end());
-        temp.insert(temp.end(),nums.begin(),nums.end()-k);
-        nums = temp;
-        }
-        else{
-            while(i < k){
-                temp.insert(temp.begin(),*(nums.end()-1-j));
-                i++;
-                j++;
-                if(j >= nums.size()){
-                    j = 0;
-                }
+        int n = nums.size();
+        vector<int> temp(n);
+        k = k % n;
+        if(k == 0) return;
+        if(n <= 1) return;
 
-            }
-            temp1.insert(temp1.begin(), temp.begin(), temp.begin()+nums.size());
-            nums = temp1;
+        int idx = n - k;
+        int i = 0;
+        temp[i] = nums[idx];
+        i++;
+        idx = (idx+1) % n;
+        while(idx != n-k){
+            temp[i] = nums[idx];
+            i++;
+            idx = (idx+1) % n;
         }
+
+        nums = temp;
     }
 };
