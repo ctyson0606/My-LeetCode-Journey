@@ -3,7 +3,7 @@ public:
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
         if(n <= 1) return;
-        
+
         vector<int> temp(n);
 
         k = k % n;
@@ -21,5 +21,6 @@ public:
         }
 
         nums = temp;
+        
     }
 };
