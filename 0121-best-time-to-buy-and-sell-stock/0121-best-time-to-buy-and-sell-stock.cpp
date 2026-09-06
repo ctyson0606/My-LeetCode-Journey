@@ -4,19 +4,19 @@ public:
         int minPrice = prices[0];
         int idx = 1;
         int n = prices.size();
-        int maxPrice = 0;
+        int maxProfit = 0;
         while(idx < n){
             if(prices[idx] < minPrice){
                 minPrice = prices[idx];
             }
             else{
-                if(maxPrice < (prices[idx] - minPrice)){
-                    maxPrice = prices[idx] - minPrice;
+                if(maxProfit < (prices[idx] - minPrice)){
+                    maxProfit = prices[idx] - minPrice;
                 }
             }
             idx++;
         }
-
-        return maxPrice;
+        
+        return maxProfit;
     }
 };
