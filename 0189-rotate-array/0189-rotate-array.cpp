@@ -2,25 +2,17 @@ class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
-        if(n <= 1) return;
-
-        vector<int> temp(n);
-
         k = k % n;
-        if(k == 0) return;
+        reverse(nums,0,n-1);
+        reverse(nums,0,k-1);
+        reverse(nums,k,n-1);
+    }
 
-        int idx = n - k;
-        int i = 0;
-        temp[i] = nums[idx];
-        i++;
-        idx = (idx+1) % n;
-        while(idx != n-k){
-            temp[i] = nums[idx];
-            i++;
-            idx = (idx+1) % n;
+    void reverse(vector<int>& nums, int startIdx, int endIdx){
+        while(startIdx < endIdx){
+            swap(nums[startIdx],nums[endIdx]);
+            startIdx++;
+            endIdx--;
         }
-
-        nums = temp;
-        
     }
 };
