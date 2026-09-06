@@ -16,7 +16,6 @@ public:
             }
             idx++;
         }
-        
 
         return maxProfit;
     }
