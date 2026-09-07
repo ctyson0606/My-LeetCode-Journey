@@ -175,6 +175,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0169-majority-element) |
+| [0191-number-of-1-bits](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0215-kth-largest-element-in-an-array) |
 ## Stack
 |  |
@@ -388,6 +389,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0067-add-binary) |
+| [0191-number-of-1-bits](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/ctyson0606/My-LeetCode-Journey/tree/master/0222-count-complete-tree-nodes) |
 ## Binary Lifting
 |  |
