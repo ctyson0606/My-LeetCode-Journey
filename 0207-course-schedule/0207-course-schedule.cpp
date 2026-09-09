@@ -3,13 +3,13 @@ public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         int n = prerequisites.size();
 
-        unordered_map<int,vector<int>> record;
-        unordered_set<int> visited;
-        unordered_set<int> onPath;
+        vector<vector<int>> record(numCourses);
+        vector<bool> visited(numCourses,false);
+        vector<bool> onPath(numCourses,false);
         for(int i = 0;i < n;i++){
             record[prerequisites[i][0]].push_back(prerequisites[i][1]);
         }
-
+        
         for(int i = 0; i < numCourses ;i++){
             if(!check(record, i, visited, onPath)) return false;
         }
@@ -17,20 +17,20 @@ public:
         return true;
     }
 
-    bool check(unordered_map<int,vector<int>>& record, int finding, unordered_set<int>& visited, unordered_set<int>& onPath){
-        if(record.find(finding) == record.end()){
-            visited.insert(finding);
+    bool check(vector<vector<int>>& record, int finding, vector<bool>& visited, vector<bool>& onPath){
+        if(record[finding].size() == 0){
+            visited[finding] = true;
             return true;
         }
 
-        if(onPath.find(finding) != onPath.end()) return false;
-        onPath.insert(finding);
+        if(onPath[finding] == true) return false;
+        onPath[finding] = true;
 
-        if(visited.find(finding) != visited.end()){
-            onPath.erase(finding);
+        if(visited[finding] == true){
+            onPath[finding] = false;
             return true;
         } 
-        visited.insert(finding);
+        visited[finding] = true;
 
         vector<int>& x = record[finding];
         int n = x.size();
@@ -39,7 +39,7 @@ public:
             if(!check(record, x[i], visited, onPath)) return false;
         }
 
-        onPath.erase(finding);
+        onPath[finding] = false;
         return true;
     }
 };
