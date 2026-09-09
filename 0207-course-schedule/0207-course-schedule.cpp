@@ -5,17 +5,13 @@ public:
 
         unordered_map<int,vector<int>> record;
         unordered_set<int> visited;
-        
-        vector<int> runCourse;
+        unordered_set<int> onPath;
         for(int i = 0;i < n;i++){
             record[prerequisites[i][0]].push_back(prerequisites[i][1]);
-            runCourse.push_back(prerequisites[i][0]);
         }
 
-        n = runCourse.size();
-        for(int i = 0; i < n;i++){
-            unordered_set<int> onPath;
-            if(!check(record, runCourse[i], visited, onPath)) return false;
+        for(int i = 0; i < numCourses ;i++){
+            if(!check(record, i, visited, onPath)) return false;
         }
 
         return true;
@@ -36,7 +32,7 @@ public:
         } 
         visited.insert(finding);
 
-        vector<int> x = record[finding];
+        vector<int>& x = record[finding];
         int n = x.size();
 
         for(int i = 0;i < n;i++){
