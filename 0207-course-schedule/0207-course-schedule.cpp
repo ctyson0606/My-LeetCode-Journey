@@ -18,15 +18,10 @@ public:
     }
 
     bool check(vector<vector<int>>& record, int finding, vector<bool>& visited, vector<bool>& onPath){
-        if(record[finding].size() == 0){
-            visited[finding] = true;
-            return true;
-        }
-
-        if(onPath[finding] == true) return false;
+        if(onPath[finding]) return false;
         onPath[finding] = true;
 
-        if(visited[finding] == true){
+        if(visited[finding]){
             onPath[finding] = false;
             return true;
         } 
